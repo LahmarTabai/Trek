@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,400&display=swap');
+
+html{
+    font-size: 62.5%;
+    
+} 
+body{
+   font: 1.6rem sans-serif;
+   margin: 0;
+
+}
+h1,h2,h3,ul,li,p,figure{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   font-weight: 300;
+}
+*{
+   box-sizing: border-box; 
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+/*Théme*/
+
+header nav ul{
+    position: relative;
+    top: 25%;
+    left: 1%;
+    line-height: 3rem;
+    margin-top: 2rem;
+    
+
+}
+
+main{
+    max-width: 100rem;
+    position: absolute;
+    top: 8.5%;
+    left: 20%;
+}
+
+
+main figure img{
+    max-width: 25rem;
+    display: block;
+    width: 100%;
+
+}
+
+main figure figcaption{
+    width: 25rem;
+    line-height: 3rem;
+}
+
+main figure{
+    display: inline-block;
+    width: calc(100% / 4 - 1rem);
+    vertical-align: top;
+    margin: 0 1rem 1rem 0;
+    
+   
+}
+
+main figure figcaption h2{
+    font-size: inherit;
+    text-decoration: bold;
+
+}
+
+
+
+footer *{
+    position: absolute;
+    top: 125%;
+    left: 45%;
+    bottom: 0;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.Nord{
+    margin: 1rem 0;
+}
+
+main figure figcaption p a{
+    border: .1rem solid rgb(218, 216, 216);
+    padding: .5rem;
+    margin-top: 2rem;
+}
+
+span{
+    color: rgb(235, 33, 33);
+}
